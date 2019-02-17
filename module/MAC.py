@@ -74,5 +74,4 @@ print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mAdministration Type\033[1;3
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mWhireShark Note\033[1;30m :\033[32m", str(data1["macAddressDetails"]["wiresharkNotes"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m]\033[1;37m MAC Prefix\033[1;30m :\033[1;32m", (data2['result']['mac_prefix']);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mComment\033[1;30m :\033[32m", str(data1["macAddressDetails"]["comment"]);
-
 print "\033[0m"
