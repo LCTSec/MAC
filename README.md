@@ -9,5 +9,6 @@ $ cd MAC
 $ python2 install.py
 ```
 # Note 
-° Percayalah, Merecode tidak akan membuatmu menjadi pro.
+° Percayalah, Merecode tidak akan membuatmu menjadi pro. Semoga anda memahaminya ;)
 # Screenshoot
+<img src="MAC.png"/>
