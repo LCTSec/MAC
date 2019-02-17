@@ -51,7 +51,7 @@ dat1 = urlopen(url1).read().decode("utf-8")
 dat2 = urlopen(url2).read().decode("utf-8")
 data1 = json.loads(dat1)
 data2 = json.loads(dat2)
-print "\033[1;32m  [\033[1;37m#\033[1;32m]\033[1;37m Data Server 1 >>"
+print "\033[1;32m  [\033[1;37m#\033[1;32m]\033[1;37m MAC Information >>"
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mOUI\033[1;30m :\033[32m", str(data1["vendorDetails"]["oui"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mPrivate\033[1;30m :\033[32m", str(data1["vendorDetails"]["isPrivate"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mCompany Name\033[1;30m :\033[32m", str(data1["vendorDetails"]["companyName"]);
