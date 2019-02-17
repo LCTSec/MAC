@@ -4,7 +4,7 @@ MAC Address Lookup
 ```bash
 $ pkg install git
 $ pkg install python2
-$ git clone https://ITermSec/MAC.git
+$ git clone https://github.com/ITermSec/MAC.git
 $ cd MAC
 $ python2 install.py
 ```
