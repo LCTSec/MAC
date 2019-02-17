@@ -68,7 +68,6 @@ print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mData Updated\033[1;30m :\03
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mValid\033[1;30m :\033[32m", str(data1["macAddressDetails"]["isValid"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mVirtual Machine\033[1;30m :\033[32m", str(data1["macAddressDetails"]["virtualMachine"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mApplications\033[1;30m :\033[32m", str(data1["macAddressDetails"]["applications"]);
-print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mApplications\033[1;30m :\033[32m", str(data1["macAddressDetails"]["applications"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mTransmission Type\033[1;30m :\033[32m", str(data1["macAddressDetails"]["transmissionType"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mAdministration Type\033[1;30m :\033[32m", str(data1["macAddressDetails"]["administrationType"]);
 print "\033[1;33m  [\033[1;32m+\033[1;33m] \033[1;37mWhireShark Note\033[1;30m :\033[32m", str(data1["macAddressDetails"]["wiresharkNotes"]);
